@@ -164,7 +164,7 @@ $(document).ready(function () {
         $(this).hasClass("abierta") ||
         ((l = !1),
           $(".circle-loader").removeClass("load-complete"),
-          $(".check-icon").css("display", "none"),
+          $(".checkmark").css("display", "none"),
           $(this).addClass("abierta"),
           3 == r
             ? ($(this).addClass("premiazo"),
@@ -175,7 +175,7 @@ $(document).ready(function () {
                       ($("#modal2").fadeOut("slow"),
                         $("#modal3").fadeIn("slow"),
                         $(".circle-loader").addClass("load-complete"),
-                        $(".check-icon").css("display", "block"),
+                        $(".checkmark").css("display", "block"),
                         $("#timerr").length >= 1)
                     ) {
                       var t, e, n, i;
@@ -201,7 +201,7 @@ $(document).ready(function () {
                 $("#modal2").fadeIn("slow"),
                   setTimeout(function () {
                     $(".circle-loader").addClass("load-complete"),
-                      $(".check-icon").css("display", "block"),
+                      $(".checkmark").css("display", "block"),
                       $("#boxes").css("pointer-events", "all");
                   }, 1e3);
               }, 2e3))));
