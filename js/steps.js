@@ -3,54 +3,54 @@ var theme = "9-coop";
 var template = "surbox";
 var brand_country = "United States";
 var dayNames = Array(
-  "Dimanche",
-  "Lundi",
-  "Mardi",
-  "Mercredi",
-  "Jeudi",
-  "Vendredi",
-  "Samedi"
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
 );
 var monthNames = [
-  "Janvier",
-  "Février",
-  "Mars",
-  "Avril",
-  "Peut",
-  "Juin",
-  "Juillet",
-  "Août",
-  "Septembre",
-  "Octobre",
-  "Novembre",
-  "Décembre",
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 var img_regalo = "./principal-it.png";
-var minutos_y = "minute ";
-var segundos = "Secondes";
+var minutos_y = "Minute ";
+var segundos = "Seconds";
 var modalOptions = {
   backdrop: "static",
   keyboard: false,
 };
 var data = [
   {
-    name: "Élodie",
-    address: "Marseille",
-    desc: "a remporté un ensemble LEGO!",
+    name: "Alex",
+    address: "London",
+    desc: "won a LEGO sets!",
     img: "./img/box-04.png",
-    time: "Il y a 15 secondes",
+    time: "15 seconds ago",
   },
   {
-    name: "Bastien",
-    address: "Lyon",
-    desc: "a remporté un ensemble LEGO!",
+    name: "Mary",
+    address: "Nottingham",
+    desc: "won a LEGO sets!",
     img: "./img/box-04.png",
     time: "18 seconds ago",
   },
   {
-    name: "Capucine",
-    address: "Toulouse",
-    desc: "a remporté un ensemble LEGO!",
+    name: "Stephanie",
+    address: "Birmingham",
+    desc: "won a LEGO sets!",
     img: "./img/box-04.png",
     time: "10 seconds ago",
   },
